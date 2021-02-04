@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLUJO</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+    <h1>RM Insurance Inc</h1>
+   </header>
+   
+   <main>
+        <section class="sec-1">
+            <div class="container">
+                <h1 id="tit" >Mejor Cuota en segundos</h1>
+                <form action="">
+                    <div>
+                        <label for="genero">GENERO</label>
+                        <select name="" id="genero">
+                            <option value="hombre" >hombre</option>
+                            <option value="mujer" >mujer</option>
+                        </select> 
+                    </div>           
+                    <div>
+                        <label for="edad">EDAD</label>
+                        <input type="number" name="" id="edad" required>
+                    </div>
+
+                    <div>
+                        <button type="button" onclick="generaCuota()">VER CUOTA</button> 
+                    </div>
+                 </form>  
+                 <div id="cuota"></div>   
+            </div>                           
+        </section>
+
+        <section class="sec-2">
+            <img src="carro1.png" alt="carro">
+        </section>
+    </main>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
