@@ -140,3 +140,4 @@ const generaCuota = (genero, edad) => {
         `;
     }
 }
+

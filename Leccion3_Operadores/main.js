@@ -63,3 +63,6 @@ contador.innerHTML = `
 </div>
 `;
 }, 1000);
+
+
+console.log('test');
