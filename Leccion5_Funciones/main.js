@@ -67,3 +67,21 @@ console.log(calcula(45, 35, 62));
 
    En JavaScript  el hoisting funciona solamente con las declaraciones*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log(aprendeLasFunciones(false));

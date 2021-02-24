@@ -1,0 +1,14 @@
+
+section {
+    background-color: #3f3f3f;
+    height: 100vh;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+
+h1 {
+    text-align:center;
+    padding-top: 50px;
+    color: #f3f3f3;
+}
