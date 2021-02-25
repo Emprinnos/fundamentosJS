@@ -23,12 +23,12 @@
 
 /* WHILE*/
 
-// let x = 1;
-// while (x <= 4) {
-//     console.log(`Iteracion ${x}`);
-//     x++;
-// }
-// console.log('Fin de While');
+let x = 1;
+while (x <= 4) {
+    console.log(`Iteracion ${x}`);
+    x++;
+}
+console.log('Fin de While');
 
 
 /*DO WHILE*/
