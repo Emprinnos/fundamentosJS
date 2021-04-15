@@ -1,0 +1,31 @@
+
+#formulario {
+    max-width:420px;
+    margin:auto;
+    padding: 0 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 10vh;
+}
+
+ i {
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.invalid {
+    color:#d9534f;
+}
+
+.valid {
+    color:#5cb85c;
+}
+
+.valid:after {
+    padding-left:25px;
+    content: '\2713';
+    font-weight: bolder;
+  }

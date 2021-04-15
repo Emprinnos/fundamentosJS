@@ -40,3 +40,24 @@ do {
     y++;
 
 } while (y <= 4);
+
+const artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
+
+// modifier = (array, element) => {
+//     let newArray = [...array];
+//     newArray.push(element);
+//     return newArray;
+// }
+
+
+// console.log('la nueva');
+// console.log(modifier(artists, "xxx"));
+
+// console.log('vieja');
+// console.log(artists);
+
+let newArray = [... artists];
+console.log(newArray);
+newArray.push(5);
+console.log(newArray);
+console.log(artists);
