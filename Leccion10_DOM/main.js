@@ -10,7 +10,7 @@ function cambiaColor(element){
 // cambiaColor(seccion);
 
 
-// #2 Metodo getElementByClassName
+// #2 Metodo getElementsByClassName
 
 // const cajas = Array.from(document.getElementsByClassName('caja'));
 // console.log(cajas);
