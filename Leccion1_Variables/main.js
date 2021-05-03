@@ -96,3 +96,11 @@ console.log(typeof nombre);
 
 let edad = null;
 console.log(typeof edad);
+
+const array = [1, 2, 3, 4, 5];
+    
+const sum = array.reduce(function(a, b){
+     return a + b;
+ }, 0);  
+ console.log(sum); 
+
