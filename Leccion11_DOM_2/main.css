@@ -1,0 +1,61 @@
+body{
+    background-color: #3f3f3f;
+}
+#principal {   
+    min-height: 250px;
+    font-size: 2rem;
+    font-weight: lighter;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
+
+
+.titulo {
+    text-align:center;
+    color: #f3f3f3;
+}
+
+.caja {
+    background: teal;
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+#caja {
+    background: teal;
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+p {
+    text-align:center;
+}
+
+button{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    background: rgb(68, 96, 221);
+    color: #f3f3f3;
+    border:none;
+    font-size: 1.2rem;
+}
+
+.activado {
+    background: yellow;
+    width: 150px;
+    height: 150px;
+    font-size: 1.2rem;
+    text-align:center;
+}
+
+.lista{
+    color: #f3f3f3;
+    text-align: left;
+}
