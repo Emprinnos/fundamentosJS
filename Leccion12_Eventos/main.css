@@ -1,0 +1,34 @@
+body{
+    background-color: #f3f3f3;
+}
+
+section{
+    min-width: 500px;
+    min-height:600px;
+    border: 2px red solid;
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+}
+
+p{
+    text-align: right;
+}
+button{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    background: rgb(68, 96, 221);
+    color: #f3f3f3;
+    border:none;
+    font-size: 1.2rem;
+}
+
+.carro{  
+
+    position:relative; 
+    transition-property:right;
+    transition-property:left;
+    transition-duration: 2s;               
+}
+
