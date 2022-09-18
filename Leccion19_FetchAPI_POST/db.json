@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "trt",
+      "nombre": "tret",
+      "telefono": "tretr",
+      "id": 1
+    },
+    {
+      "email": "",
+      "nombre": "",
+      "telefono": "",
+      "id": 2
+    }
+  ]
+}

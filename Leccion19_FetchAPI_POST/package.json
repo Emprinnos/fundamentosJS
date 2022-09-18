@@ -1,0 +1,14 @@
+{
+  "name": "fetchapi_post",
+  "version": "1.0.0",
+  "description": "pruebas",
+  "main": "main.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
